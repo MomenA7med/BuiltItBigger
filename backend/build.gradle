@@ -33,8 +33,10 @@ dependencies {
     implementation 'com.google.http-client:google-http-client-android:1.23.0'
 }
 appengine {
-    tools.cloudSdkHome="C:\\Users\\Momen\\AppData\\Local\\Google\\Cloud SDK\\google-cloud-sdk"
+    tools.cloudSdkHome="C://Users/Momen/AppData/Local/Google/Cloud SDK/google-cloud-sdk"
     run {
         host = '0.0.0.0'
+        port 9999
     }
+
 }
