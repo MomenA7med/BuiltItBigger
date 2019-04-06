@@ -42,6 +42,9 @@ android {
         }
     }
 }
+//configurations {
+//    all*.exclude module: 'guava-jdk5'
+//}
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
@@ -51,10 +54,11 @@ dependencies {
     freeImplementation 'com.google.android.gms:play-services-ads:17.2.0'
     implementation 'com.google.api-client:google-api-client:1.23.0'
     implementation 'com.google.http-client:google-http-client-android:1.23.0'
+
     implementation 'com.google.code.findbugs:jsr305:3.0.2'
     implementation project(':javaJokes')
     implementation project(':androidlibforjokes')
-    implementation project(':backend')
+    //implementation project(':backend')
     androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
