@@ -1,28 +1,26 @@
 Warning: Google App Engine Java 7 runtime is deprecated.
 Warning: See https://cloud.google.com/appengine/docs/deprecations/java7
-Apr 05, 2019 12:18:48 AM java.util.prefs.WindowsPreferences <init>
+Apr 06, 2019 1:52:32 AM java.util.prefs.WindowsPreferences <init>
 WARNING: Could not open/create prefs root node Software\JavaSoft\Prefs at root 0x80000002. Windows RegCreateKeyEx(...) returned error code 5.
-Apr 05, 2019 12:19:04 AM com.google.appengine.tools.development.SystemPropertiesManager setSystemProperties
-INFO: Overwriting system property key 'java.util.logging.config.file', value 'C:\Users\Momen\AppData\Local\Google\Cloud SDK\google-cloud-sdk\platform\google_appengine\google\appengine\tools\java\config\sdk\logging.properties' with value 'WEB-INF/logging.properties' from 'D:\project\ud867\FinalProject\backend\build\exploded-backend\WEB-INF\appengine-web.xml'
-Apr 05, 2019 12:19:11 AM com.google.apphosting.utils.jetty.JettyLogger info
+Apr 06, 2019 1:52:33 AM com.google.appengine.tools.development.SystemPropertiesManager setSystemProperties
+INFO: Overwriting system property key 'java.util.logging.config.file', value 'C:\Users\Momen\AppData\Local\Google\Cloud SDK\google-cloud-sdk\platform\google_appengine\google\appengine\tools\java\config\sdk\logging.properties' with value 'WEB-INF/logging.properties' from 'D:\new\NanodegreeProjects\BuiltItBigger\backend\build\exploded-backend\WEB-INF\appengine-web.xml'
+Apr 06, 2019 1:52:33 AM com.google.apphosting.utils.jetty.JettyLogger info
 INFO: Logging to JettyLogger(null) via com.google.apphosting.utils.jetty.JettyLogger
-Apr 04, 2019 10:19:19 PM com.google.appengine.tools.development.IsolatedAppClassLoader checkWorkingDirectory
-WARNING: Your working directory, (D:\project\ud867\FinalProject) is not equal to your 
-web application root (D:\project\ud867\FinalProject\backend\build\exploded-backend)
+Apr 05, 2019 11:52:33 PM com.google.appengine.tools.development.IsolatedAppClassLoader checkWorkingDirectory
+WARNING: Your working directory, (D:\new\NanodegreeProjects\BuiltItBigger) is not equal to your 
+web application root (D:\new\NanodegreeProjects\BuiltItBigger\backend\build\exploded-backend)
 You will not be able to access files from your working directory on the production server.
 
-Apr 04, 2019 10:19:21 PM com.google.apphosting.utils.jetty.JettyLogger info
+Apr 05, 2019 11:52:33 PM com.google.apphosting.utils.jetty.JettyLogger info
 INFO: jetty-6.1.x
-Apr 04, 2019 10:19:51 PM com.google.apphosting.utils.jetty.JettyLogger info
+Apr 05, 2019 11:52:35 PM com.google.apphosting.utils.jetty.JettyLogger info
 INFO: Started SelectChannelConnector@0.0.0.0:9999
-Apr 04, 2019 10:19:51 PM com.google.appengine.tools.development.AbstractModule startup
+Apr 05, 2019 11:52:35 PM com.google.appengine.tools.development.AbstractModule startup
 INFO: Module instance default is running at http://localhost:9999/
-Apr 04, 2019 10:19:51 PM com.google.appengine.tools.development.AbstractModule startup
+Apr 05, 2019 11:52:35 PM com.google.appengine.tools.development.AbstractModule startup
 INFO: The admin console is running at http://localhost:9999/_ah/admin
-Apr 05, 2019 12:19:51 AM com.google.appengine.tools.development.DevAppServerImpl doStart
+Apr 06, 2019 1:52:35 AM com.google.appengine.tools.development.DevAppServerImpl doStart
 INFO: Dev App Server is now running
-Apr 05, 2019 12:22:59 AM com.google.appengine.tools.development.AbstractModule shutdown
+Apr 06, 2019 1:54:45 AM com.google.appengine.tools.development.AbstractModule shutdown
 INFO: Shutting down module instance default
 Shutting down.
-Apr 05, 2019 12:22:59 AM com.google.appengine.api.datastore.dev.LocalDatastoreService cleanupActiveServices
-INFO: scheduler shutting down.

@@ -14,7 +14,6 @@ import android.widget.Toast;
 
 import com.example.androidlibforjokes.DisplayJokes;
 import com.example.javajokes.Jokes;
-import com.google.android.gms.ads.MobileAds;
 import com.google.api.client.extensions.android.http.AndroidHttp;
 import com.google.api.client.extensions.android.json.AndroidJsonFactory;
 import com.google.api.client.googleapis.services.AbstractGoogleClientRequest;
@@ -32,7 +31,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        MobileAds.initialize(this,"ca-app-pub-9851658657338441~3090541233");
 
     }
 
